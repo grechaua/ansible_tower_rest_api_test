@@ -1,0 +1,21 @@
+{
+  "name": "job template with survey",
+  "description": "",
+  "job_type": "run",
+  "inventory": "<INVENTORY_ID>",
+  "project": "<PROJECT_ID>",
+  "playbook": "ping_hosts.yml",
+  "credential": "<CREDENTIAL_ID>",
+  "cloud_credential": null,
+  "forks": 0,
+  "limit": "",
+  "verbosity": 3,
+  "extra_vars": "",
+  "job_tags": "",
+  "force_handlers": false,
+  "skip_tags": "",
+  "start_at_task": "",
+  "host_config_key": "",
+  "ask_variables_on_launch": false,
+  "survey_enabled": true
+}

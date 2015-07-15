@@ -1,0 +1,20 @@
+{
+	"credential": "<CREDENTIAL_ID>",
+	"name": "job template with survey",
+	"job_template": "<JOB_TEMPLATE_ID>",
+	"job_tags": "",
+	"extra_vars": "{\"hosts\": \"Cherry\"}",
+	"verbosity": 3,
+	"description": "",
+	"job_type": "run",
+	"start_at_task": "",
+	"unified_job_template": "<JOB_TEMPLATE_ID>",
+	"project": "<PROJECT_ID>",
+	"skip_tags": "",
+	"limit": "",
+	"inventory": 1,
+	"forks": 0,
+	"cloud_credential": null,
+	"force_handlers": false,
+	"playbook": "ping_hosts.yml"
+}

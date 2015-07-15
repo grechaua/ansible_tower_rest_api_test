@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "spec": [
+        {
+            "index": "0",
+            "question_name": "Some fruits",
+            "min": "",
+            "default": "",
+            "max": "",
+            "question_description": "select some fruits",
+            "required": true,
+            "variable": "hosts",
+            "choices": "Apple\nBanana\nCherry",
+            "type": "multiplechoice"
+        }
+    ],
+    "name": "test survey"
+}

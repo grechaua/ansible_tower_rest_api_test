@@ -1,0 +1,13 @@
+{
+  "name": "test project",
+  "description": "",
+  "local_path": "/vagrant/",
+  "scm_type": "git",
+  "scm_url": "https://github.com/grechaua/ansible_tower_rest_api_test.git",
+  "scm_branch": "",
+  "scm_clean": false,
+  "scm_delete_on_update": false,
+  "credential": "",
+  "scm_update_on_launch": false,
+  "scm_update_cache_timeout": 0
+}
