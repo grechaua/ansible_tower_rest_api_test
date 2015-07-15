@@ -1,19 +1,27 @@
 # ansible_tower_rest_api_test
 Testing API of Ansible Tower
 
+1. Download sources to some folder:
+
+```
 git clone git@github.com:grechaua/ansible_tower_rest_api_test.git
+```
 
-vagrant init tower http://vms.ansible.com/ansible-tower-2.1.6-virtualbox.box
+2. Start vm:
 
+```
 vagrant up
 
 vagrant ssh
+```
 
-get login/password from motd/welcome banner inside vm
+3. Get login/password from motd/welcome banner inside vm.
 
-obtain 10 nodes endless license and put it into https://localhost:8443/
+4. Obtain 10 nodes endless license and put it into https://localhost:8443/
 
-inside vm run:
+5. Play with scripts inside vm:
+
+```
 cd /vagrant/
 
 ./create_authtoken.sh
@@ -31,5 +39,5 @@ cd /vagrant/
 ./create_job_template_survey.sh
 
 ./create_job_survey.sh
-
+```
 
