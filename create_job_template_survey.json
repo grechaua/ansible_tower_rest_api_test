@@ -10,7 +10,7 @@
   "forks": 0,
   "limit": "",
   "verbosity": 3,
-  "extra_vars": "",
+  "extra_vars": "{\n\t\"NOTIFY_SLACK\": 1,\n\t\"S3\": 1,\n\t\"SLACK_CHANNEL\": \"tools\"\n}",
   "job_tags": "",
   "force_handlers": false,
   "skip_tags": "",

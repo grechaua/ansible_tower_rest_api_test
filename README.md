@@ -30,6 +30,8 @@ cd /vagrant/
 
 ./create_project.sh
 
+wait until tower connected to github and check repository
+
 ./create_credential.sh
 
 ./create_inventory.sh
